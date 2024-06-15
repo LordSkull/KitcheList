@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "492276379756",
+    "project_id": "kitchenlist-2513c",
+    "storage_bucket": "kitchenlist-2513c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492276379756:android:d11f17d0baf868ac2ca849",
+        "android_client_info": {
+          "package_name": "com.example.kitchenlist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqBSqxR88hhdHi6HNxId8QS1Iwox4VVcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
