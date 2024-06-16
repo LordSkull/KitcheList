@@ -31,11 +31,11 @@ class MainActivity : AppCompatActivity() {
         FoodList = ArrayList()
 
         FoodList.add(Food(R.drawable.amatriciana, "Amatriciana",
-            "Spaghetti o bucatini       320g\n" +
-                    "Guanciale      150g\n" +
-                    "Pomodori pelati        400g\n" +
+            "Spaghetti o bucatini             320g\n" +
+                    "Guanciale                       150g\n" +
+                    "Pomodori pelati                400g\n" +
                     "Peperoncino (facoltativo)      1\n" +
-                    "Pecorino romano grattugiato        50g\n" +
+                    "Pecorino romano grattugiato 50g\n" +
                     "Sale q.b.\n" +
                     "Pepe nero q.b.\n" +
                     "Olio extravergine d'oliva (facoltativo)",
@@ -51,12 +51,13 @@ class MainActivity : AppCompatActivity() {
 
 
         FoodList.add(Food(R.drawable.carbonara, "Carbonara",
-            "Spaghetti      320g\n" +
-                    "Gunciale       150g\n" +
-                    "Pecorino di Amatrice 100g\n" +
-                    "Tuorli d'uovo     4 " +
-                    "Pepe nero q.b" +
-                    "Sale q.b", "Taglia il guanciale a striscioline e fallo rosolare in una padella senza aggiungere olio fino a renderlo croccante. Metti da parte il guanciale e conserva il grasso rilasciato.\n" +
+            "Spaghetti                     320g\n" +
+                    "Gunciale                       150g\n" +
+                    "Pecorino di Amatrice      100g\n" +
+                    "Tuorli d'uovo                   4 \n" +
+                    "Pepe nero q.b\n" +
+                    "Sale q.b",
+            "Taglia il guanciale a striscioline e fallo rosolare in una padella senza aggiungere olio fino a renderlo croccante. Metti da parte il guanciale e conserva il grasso rilasciato.\n" +
                     "Cuoci gli spaghetti in abbondante acqua salata.\n" +
                     "In una ciotola, sbatti i tuorli con il pecorino grattugiato e una generosa dose di pepe nero.\n" +
                     "Quando la pasta è al dente, scolala (conservando un po' di acqua di cottura) e versala nella padella con il grasso del guanciale. Mescola bene.\n" +
@@ -64,21 +65,22 @@ class MainActivity : AppCompatActivity() {
                     "Aggiungi il guanciale croccante, mescola e servi immediatamente con una spolverata di pecorino e pepe nero."))
 
         FoodList.add(Food(R.drawable.risotto_pescatore, "Risotto Alla Pescatora",
-            "Riso      320g\n" +
-                    "Cozze      300g\n" +
-                    "Vongole        300g\n" +
+            "Riso            320g\n" +
+                    "Cozze           300g\n" +
+                    "Vongole         300g\n" +
                     "Calamari       200g\n" +
                     "Gamberi        200g\n" +
-                    "Scampi     200g\n" +
+                    "Scampi         200g\n" +
                     "Brodo di pesce     1l\n" +
-                    "Cipolle        1\n" +
+                    "Cipolle             1\n" +
                     "Spicchi d'aglio        2\n" +
                     "Pomodori pelati        200g\n" +
                     "Bicchiere di vino bianco secco     1\n" +
                     "Olio extravergine d'oliva q.b.\n" +
                     "Prezzemolo tritato q.b.\n" +
                     "Sale q.b.\n" +
-                    "Pepe q.b.", "Pulisci bene le cozze e le vongole, eliminando le impurità. Fai aprire le cozze e le vongole in una padella a fuoco vivo con un filo d'olio e uno spicchio d'aglio. Filtra il liquido di cottura e mettilo da parte. Rimuovi la maggior parte dei molluschi dai gusci, lasciandone alcuni interi per decorare.\n" +
+                    "Pepe q.b.",
+            "Pulisci bene le cozze e le vongole, eliminando le impurità. Fai aprire le cozze e le vongole in una padella a fuoco vivo con un filo d'olio e uno spicchio d'aglio. Filtra il liquido di cottura e mettilo da parte. Rimuovi la maggior parte dei molluschi dai gusci, lasciandone alcuni interi per decorare.\n" +
                     "Pulisci i calamari e tagliali a rondelle. Sguscia i gamberi e gli scampi, lasciandone qualcuno intero per decorare.\n" +
                     "In una pentola grande, soffriggi la cipolla tritata finemente con un filo d'olio. Aggiungi uno spicchio d'aglio e cuoci finché non è dorato, poi rimuovilo.\n" +
                     "Aggiungi i calamari e cuoci per qualche minuto. Aggiungi il riso e tostalo per un paio di minuti, mescolando continuamente.\n" +
@@ -92,10 +94,10 @@ class MainActivity : AppCompatActivity() {
                     "Servi il risotto caldo, decorato con i molluschi interi e una spolverata di prezzemolo tritato."))
 
         FoodList.add(Food(R.drawable.pasta_patatejpg, "Pasta Con Patate",
-            "Pasta corta (ditalini o tubetti)       320g\n" +
-                    "Patate     500g\n" +
-                    "Cipolla        1\n" +
-                    "Carota     1\n" +
+            "Pasta corta (tubetti) 320g\n" +
+                    "Patate                 500g\n" +
+                    "Cipolla                 1\n" +
+                    "Carota                    1\n" +
                     "Gambo di sedano        1\n" +
                     "Pomodori pelati        200g\n" +
                     "1 litro di brodo vegetale\n" +
@@ -103,7 +105,8 @@ class MainActivity : AppCompatActivity() {
                     "Sale q.b.\n" +
                     "Pepe q.b.\n" +
                     "Parmigiano Reggiano grattugiato (facoltativo)\n" +
-                    "Prezzemolo tritato (facoltativo", "Pela le patate e tagliale a cubetti.\n" +
+                    "Prezzemolo tritato (facoltativo",
+            "Pela le patate e tagliale a cubetti.\n" +
                     "In una pentola grande, soffriggi la cipolla tritata finemente con un filo d'olio. Aggiungi la carota e il sedano tritati e continua a soffriggere per qualche minuto.\n" +
                     "Aggiungi i pomodori pelati schiacciati e cuoci per 5-10 minuti.\n" +
                     "Unisci le patate a cubetti e copri con il brodo vegetale. Porta a ebollizione e lascia cuocere a fuoco lento per circa 20-30 minuti, finché le patate sono tenere.\n" +
@@ -113,14 +116,15 @@ class MainActivity : AppCompatActivity() {
 
 
         FoodList.add(Food(R.drawable.spaghettipomodoro, "Spaghetti Al Pomodoro",
-            "Spaghetti      320g\n" +
+            "Spaghetti                   320g\n" +
                     "Passata di pomodoro        700g\n" +
-                    "Spicchi d'aglio        2\n" +
+                    "Spicchi d'aglio                2\n" +
                     "Foglie di basilico fresco      5-6\n" +
                     "Olio extravergine d'oliva q.b.\n" +
                     "Sale q.b.\n" +
                     "Pepe q.b.\n" +
-                    "Parmigiano Reggiano grattugiato (facoltativo)", "In una padella grande, riscalda un filo d'olio e aggiungi gli spicchi d'aglio schiacciati. Falli rosolare finché non diventano dorati, poi rimuovili.\n" +
+                    "Parmigiano Reggiano grattugiato (facoltativo)",
+            "In una padella grande, riscalda un filo d'olio e aggiungi gli spicchi d'aglio schiacciati. Falli rosolare finché non diventano dorati, poi rimuovili.\n" +
                     "Aggiungi i pomodori pelati schiacciati o la passata di pomodoro. Cuoci a fuoco medio per circa 20-30 minuti, mescolando di tanto in tanto, fino a quando la salsa si addensa.\n" +
                     "Aggiusta di sale e pepe, e aggiungi le foglie di basilico spezzettate.\n" +
                     "Nel frattempo, cuoci gli spaghetti in abbondante acqua salata. Scolali al dente.\n" +
@@ -128,16 +132,17 @@ class MainActivity : AppCompatActivity() {
                     "Servi caldo, con una spolverata di parmigiano se lo desideri."))
 
         FoodList.add(Food(R.drawable.pastagenovese, "Pasta Genovese",
-            "Ziti       320g \n" +
+            "Ziti               320g \n" +
                     "Cipolle dorate     1kg\n" +
-                    "Carne di manzo 500g\n" +
-                    "Pancetta       50g\n" +
-                    "Carota     1\n" +
-                    "Gambo di sedano      1\n" +
+                    "Carne di manzo      500g\n" +
+                    "Pancetta           50g\n" +
+                    "Carota                1\n" +
+                    "Gambo di sedano       1\n" +
                     "Bicchiere di vino bianco secco     1\n" +
                     "Strutto o olio d'oliva     50g\n" +
                     "Sale e pepe q.b." +
-                    "Sale fino q.b.", "Taglia le cipolle a fettine sottili, la carota e il sedano a pezzetti.\n" +
+                    "Sale fino q.b.",
+            "Taglia le cipolle a fettine sottili, la carota e il sedano a pezzetti.\n" +
                     "In una pentola grande, fai sciogliere lo strutto (o riscalda l'olio) e aggiungi la pancetta tagliata a dadini.\n" +
                     "Aggiungi la carne di manzo tagliata a pezzi e falla rosolare bene su tutti i lati.\n" +
                     "Unisci le cipolle, la carota e il sedano e lascia cuocere a fuoco basso per almeno 2-3 ore, mescolando di tanto in tanto e aggiungendo un po' d'acqua se necessario. Le cipolle devono diventare una crema.\n" +
@@ -147,7 +152,7 @@ class MainActivity : AppCompatActivity() {
                     "Servi caldo, eventualmente con una spolverata di parmigiano grattugiato."))
 
         FoodList.add(Food(R.drawable.pastafagioli, "Pasta Fagioli",
-            "Pasta (ditali o tubetti)       320g\n" +
+            "Pasta (tubetti)       320g\n" +
                     "fagioli borlotti secchi       300G\n" +
                     "Cipolla        1\n" +
                     "Carota     1\n" +
@@ -157,7 +162,8 @@ class MainActivity : AppCompatActivity() {
                     "Foglie di alloro       2\n" +
                     "Pomodori pelati        200g\n" +
                     "Olio extravergine d'oliva q.b.\n" +
-                    "Sale e pepe q.b.", "Se usi fagioli secchi, mettili a bagno in acqua fredda per una notte. Poi scolali e risciacquali.\n" +
+                    "Sale e pepe q.b.",
+            "Se usi fagioli secchi, mettili a bagno in acqua fredda per una notte. Poi scolali e risciacquali.\n" +
                     "In una pentola capiente, soffriggi la cipolla, la carota, il sedano e l'aglio tritati con un po' d'olio.\n" +
                     "Aggiungi i fagioli (se secchi, scolati dall'acqua di ammollo) e copri con acqua fredda.\n" +
                     "Aggiungi il rosmarino e l'alloro, porta a ebollizione e lascia cuocere a fuoco lento per circa un'ora (30 minuti se usi fagioli già cotti).\n" +
@@ -166,6 +172,30 @@ class MainActivity : AppCompatActivity() {
                     "Aggiungi la pasta e cuocila direttamente nella zuppa di fagioli, aggiungendo acqua calda se necessario.\n" +
                     "Quando la pasta è al dente, spegni il fuoco e lascia riposare per qualche minuto.\n" +
                     "Servi con un filo d'olio extravergine d'oliva a crudo e una spolverata di pepe."))
+
+        FoodList.add(Food(R.drawable.tagliatelle_bolognese, "Tagliatelle alla bolognese",
+            "Tagliatelle         400g\n" +
+                    "Carne macinata mista  300g\n"+
+                "Carota    1\n" +
+                "Cipolla   1\n" +
+                "Gambo di sedano  1\n" +
+                "Passata di pomorodo   200g\n" +
+                "Brodo di carne   200ml\n" +
+                "Vino rosso secco    100ml\n" +
+                "Cucchiai di concentrato di pomodoro    1\n" +
+                "Latte intero    100ml\n" +
+                "Olio extravergine d'oliva q.b.\n" +
+                "Sale q.b.\n" +
+                "Pepe q.b.\n",
+            "Tritate finemente la carota, la cipolla e il sedano.\n" +
+                    "In una casseruola, riscaldate un filo d'olio e aggiungete le verdure tritate. Soffriggete a fuoco medio-basso fino a quando le verdure sono morbide.\n" +
+                    "Aggiungete la carne macinata e cuocete a fuoco medio-alto fino a quando non è ben rosolata. Sfumate con il vino rosso e lasciate evaporare.\n" +
+                    "Aggiungete il concentrato di pomodoro e mescolate bene. Aggiungete poi la passata di pomodoro e il brodo di carne.\n" +
+                    "Portate a ebollizione, poi riducete il fuoco al minimo e lasciate cuocere a fuoco lento per almeno 2 ore, mescolando di tanto in tanto. Aggiustate di sale e pepe.\n" +
+                    "A fine cottura, aggiungete il latte per rendere il ragù più cremoso e cuocete per altri 10 minuti.\n" +
+                    "Cuocete le tagliatelle in abbondante acqua salata, scolatele al dente e conditele con il ragù."))
+
+
 
 
 
