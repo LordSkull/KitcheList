@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="brown">#55200d</color>
+    <color name="green">#FF00FF00</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="pink">#FEDCDC</color>
+    <color name="red">#FFFF0000</color>
+    <color name="redVariant">#E14206</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#F0D546</color>
+    <string name="app_name">KitchenList</string>
+    <string name="gcm_defaultSenderId" translatable="false">492276379756</string>
+    <string name="google_api_key" translatable="false">AIzaSyAqBSqxR88hhdHi6HNxId8QS1Iwox4VVcQ</string>
+    <string name="google_app_id" translatable="false">1:492276379756:android:d11f17d0baf868ac2ca849</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAqBSqxR88hhdHi6HNxId8QS1Iwox4VVcQ</string>
+    <string name="google_storage_bucket" translatable="false">kitchenlist-2513c.appspot.com</string>
+    <string name="project_id" translatable="false">kitchenlist-2513c</string>
+    <style name="Base.Theme.KitchenList" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.KitchenList" parent="Base.Theme.KitchenList"/>
+</resources>
