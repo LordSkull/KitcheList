@@ -197,9 +197,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
-
-        foodAdapter = FoodAdapter(FoodList.clone() as ArrayList<Food>)
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
         binding.recyclerView.adapter = foodAdapter
 
