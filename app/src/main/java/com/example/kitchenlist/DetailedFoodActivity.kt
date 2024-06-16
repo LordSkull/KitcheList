@@ -17,7 +17,7 @@ class DetailedFoodActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_detailed_food)
 
-        val food = intent.getParcelableExtra<Food>("food")
+        val food = intent.getParcelableExtra("food", Food::class.java)
         if (food != null) {
 
             val imageView : ImageView = findViewById(R.id.detailedFoodImage)
