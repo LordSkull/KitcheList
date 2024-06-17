@@ -196,6 +196,8 @@ class MainActivity : AppCompatActivity() {
                     "Cuocete le tagliatelle in abbondante acqua salata, scolatele al dente e conditele con il ragù."))
 
 
+        foodAdapter = FoodAdapter(FoodList)
+        
 
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
         binding.recyclerView.adapter = foodAdapter
